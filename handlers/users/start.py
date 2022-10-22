@@ -46,7 +46,7 @@ async def bot_start(message: types.Message):
     for user in userlar:
         user_id =user[3]
         video_manzili = "https://t.me/XUDOBERDI_GAYRATOV/18"
-        await bot.send_photo(chat_id=user_id,photo=video_manzili,caption="👋 Assalomu alaykum \n\nQadli obunachilarimiz Sizlarni Telegramdagi IT, Biznes, Texnologiyalari Yangliklari kanaliga taklif qilamiz😇\n\n➞ IT Yangliklari\n➞ Biznes Yangliklari\n➞ Texnologiya Yangliklari\n➞ Valyuta Kurslari\n➞ O'zbek, Ingliz va Rus tillarida life-hacklar\n\n➞ Sahifamizni ochish: @IT_Subject")
+        await bot.send_photo(chat_id=user_id,photo=video_manzili,caption="👋 Assalomu alaykum \n\nQadli obunachilarimiz Sizlarni Telegramdagi IT, Biznes, Texnologiyalari Yangliklari kanaliga taklif qilamiz😇\n\n➞ IT Yangliklari\n➞ Biznes Yangliklari\n➞ Texnologiya Yangliklari\n➞ Valyuta Kurslari\n➞ O'zbek, Ingliz va Rus tillarida life-hacklar\n\n➞ Sahifamizni ochish: @IT_Subject",reply_markup=rasmiy_kanal)
     for users in userlar:
         users_id= users[0]
     await  message.answer(text=f"<b>{users_id} ta foidalanuvchilarga reklama yuborildi ✅</b>")
